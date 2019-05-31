@@ -1,0 +1,16 @@
+server:
+  port: 8888
+mq:
+  host: 127.0.0.1
+  port: 5672
+  account: guest
+  password: guest
+  queues: test-exchange-test-routing
+  exchange: test-exchange
+  routing: test-routing
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
